@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "sebang-bold";
+    src: url("SEBANG Gothic OTF Bold.otf");
+}
+@font-face {
+    font-family: "sebang";
+    src: url("SEBANG Gothic OTF.otf");
+}
+body {
+    font-family: "sebang", sans-serif;
+    font-size: 16px;
+}

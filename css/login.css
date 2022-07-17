@@ -1,0 +1,31 @@
+.login-form {
+    z-index: 4;
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+.login__text {
+    font-size: 30px;
+    border-radius: 60px;
+    border: none;
+    width: 600px;
+    height: 90px;
+    text-align: center;
+}
+.login__btn {
+    position: relative;
+    right: 13%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+.login__btn:hover {
+    background-color: teal;
+    color: white;
+}
