@@ -6,7 +6,7 @@ const img = document.querySelector(".pictures-container");
 const bg = document.querySelector(".background");
 
 function changeRandomBg(num) {
-    bg.src = `/img/bg/${num}`;
+    bg.src = `./img/bg/${num}`;
 }
 function changeTargetBg(e) {
     if (e.target.src) bg.src = e.target.src;
